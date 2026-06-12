@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Image */
+img{
+    border-radius: 50px;
+}
+
+/* Video */
+video{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    background-color: green;
+}
+
+/* Button */
+button{
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+/* Table */
+table,
+th,
+td{
+    padding: 10px;
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+
+/* Navbar - Mobile First */
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Grid */
+.C{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.C div{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Desktop */
+@media (min-width:1024px){
+
+    nav{
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .C{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
