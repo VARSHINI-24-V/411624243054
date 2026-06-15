@@ -1,5 +1,6 @@
 body{
     font-family: Arial, sans-serif;
+    background-color: pink;
 }
 
 /* Image */
@@ -11,16 +12,16 @@ img{
 video{
     width: 50%;
     height: auto;
-    padding: 10px;
+}
+.two{
+    padding: 10px 20px;
     background-color: green;
 }
-
 /* Button */
 button{
     border: none;
-    padding: 10px 20px;
+    
     margin: 10px;
-    background-color: green;
     color: white;
 }
 
@@ -36,8 +37,14 @@ td{
     border: 2px solid blue;
     border-collapse: collapse;
 }
+.C div{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
 
 /* Navbar - Mobile First */
+@media (max-width:600px){
 nav{
     display: flex;
     flex-direction: column;
@@ -50,22 +57,20 @@ nav{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-
-.C div{
-    padding: 10px;
-    border: 1px solid black;
-    text-align: center;
 }
 
 /* Desktop */
 @media (min-width:1024px){
 
     nav{
+        display: flex;
         flex-direction: row;
         gap: 20px;
     }
 
     .C{
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
     }
 }

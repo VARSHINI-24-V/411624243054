@@ -97,6 +97,13 @@ let mul= ()=>{
     document.getElementById("inp1").value = "";
     document.getElementById("inp2").value = "";
 }
+let div= ()=>{
+    let num1 = parseInt(document.getElementById("inp1").value.trim());
+    let num2 = parseInt(document.getElementById("inp2").value.trim());
+    document.getElementById("res").innerHTML = num1 / num2;
+    document.getElementById("inp1").value = "";
+    document.getElementById("inp2").value = "";
+}
 
 // console.log(arr);
 // console.log(num);
