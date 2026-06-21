@@ -1,0 +1,24 @@
+#b1{
+border: rgb(46, 167, 46);
+background: violet;
+border-radius: 15px;
+padding: 0.5%;
+}
+
+   body{
+    background: linear-gradient(to right, pink,rgb(218, 153, 220),violet);
+}
+#b1:hover{
+    background-color: grey;
+}
+table,
+th,
+td{
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+   
+}
+table{
+    background-color: rgba(228, 92, 255, 0.2);
+}
