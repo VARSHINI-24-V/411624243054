@@ -1,24 +1,61 @@
-#b1{
-border: rgb(46, 167, 46);
-background: violet;
-border-radius: 15px;
-padding: 0.5%;
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #d4a5ff, #c2e9fb);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-   body{
-    background: linear-gradient(to right, pink,rgb(218, 153, 220),violet);
+/* Button */
+#b1 {
+    background: linear-gradient(135deg, #8a2be2, #ff69b4);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
+    transition: all 0.3s ease;
 }
-#b1:hover{
-    background-color: grey;
+
+#b1:hover {
+    background: linear-gradient(135deg, #6a0dad, #ff1493);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(138, 43, 226, 0.6);
 }
-table,
-th,
-td{
-    padding: 10px;
-    border: 2px solid black;
+
+/* Table */
+table {
+    width: 80%;
+    margin: 30px auto;
     border-collapse: collapse;
-   
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-table{
-    background-color: rgba(228, 92, 255, 0.2);
+
+th {
+    background: linear-gradient(135deg, #8a2be2, #ff69b4);
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f8e8ff;
+}
+
+tr:hover {
+    background-color: #e8d4ff;
+    transition: 0.3s;
 }
