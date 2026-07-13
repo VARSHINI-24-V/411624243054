@@ -1,13 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import Counter from './Counter';
-import Color from './Color';
+import MyCounter from "./Counter";
+import Navbar from "./Navbar";
+import { Routes, Route } from "react-router-dom";
+import { Add, Sub, Mul, NotFound } from "./Math";
+
 function App() {
   return (
     <>
-   <Counter />
-   <Color />
-   </>
+      <Navbar />
+
+      <Routes>
+        <Route path="/counter" element={<MyCounter />} />
+        <Route path="/Add" element={<Add />} />
+        <Route path="/Mul" element={<Mul />} />
+        <Route path="/Sub" element={<Sub />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
 

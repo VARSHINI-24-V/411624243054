@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+footer i{
+    cursor:pointer;
+}
+
+footer i:hover{
+    color:gold;
+}
