@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+export default()=> <div><h1>TheAlchemist</h1><p>Author: Paulo Coelho</p><p>Genre: Novel</p><p>Follow your dreams.</p><Link to='/books/atomic-habits'>Previous</Link> <Link to='/books/rich-dad-poor-dad'>Next</Link><br/><Link to='/books'>Back</Link></div>;

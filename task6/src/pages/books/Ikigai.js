@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+export default()=> <div><h1>Ikigai</h1><p>Author: Hector Garcia</p><p>Genre: Lifestyle</p><p>Purpose of life.</p><Link to='/books/rich-dad-poor-dad'>Previous</Link> <Link to='/books/deep-work'>Next</Link><br/><Link to='/books'>Back</Link></div>;

@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+export default()=> <div><h1>DeepWork</h1><p>Author: Cal Newport</p><p>Genre: Productivity</p><p>Focused work.</p><Link to='/books/ikigai'>Previous</Link> <Link to='/books/think-and-grow-rich'>Next</Link><br/><Link to='/books'>Back</Link></div>;

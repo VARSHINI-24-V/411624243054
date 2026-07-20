@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export default()=> <div><h1>Home</h1><Link to='/books'>Books</Link><br/><Link to='/authors'>Authors</Link><br/><Link to='/about'>About</Link></div>;

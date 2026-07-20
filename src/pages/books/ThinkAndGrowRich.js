@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+export default()=> <div><h1>ThinkAndGrowRich</h1><p>Author: Napoleon Hill</p><p>Genre: Success</p><p>Think to achieve.</p><Link to='/books/deep-work'>Previous</Link> <br/><Link to='/books'>Back</Link></div>;
