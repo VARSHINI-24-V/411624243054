@@ -1,1 +1,0 @@
-import {Link} from 'react-router-dom';export default()=> <div><h1>About</h1><p>Online Book Store</p><Link to='/'>Home</Link></div>;
